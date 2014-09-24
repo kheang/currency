@@ -36,12 +36,25 @@ class CurrencyProjTest < MiniTest::Unit::TestCase
     assert_equal Currency.new(5,"USD"), currency_test_diff
   end
 
-  # def test_special_error_if_add_or_subtract_with_diff_codes
-  #   currency1 = Currency.new(4,"USD")
-  #   currency2 = Currency.new(8,"EUR")
-  #
-  #   exception = assert_raise("DifferentCurrencyCodeError") {currency1 + currency2}
-  #   assert_equal("Blah", exception.message)
-  # end
+  def test_special_error_if_add_or_subtract_with_diff_codes
+    currency1 = Currency.new(4,"USD")
+    currency2 = Currency.new(8,"EUR")
+
+    begin
+      currency1 + currency2
+    rescue DifferentCurrencyCodeError => ex
+      result = :exception_add_handled
+    end
+
+    assert_equal :exception_add_handled, result
+
+    begin
+      currency1 - currency2
+    rescue DifferentCurrencyCodeError => ex
+      result = :exception_subtract_handled
+    end
+
+    assert_equal :exception_subtract_handled, result
+  end
 
 end
