@@ -1,7 +1,7 @@
 require "minitest/autorun"
 require "currency"
 
-class CurrencyProjTest < MiniTest::Unit::TestCase
+class CurrencyTest < MiniTest::Unit::TestCase
   def test_currency_has_amount
     currency = Currency.new(2,"USD")
     assert_equal 2, currency.num
