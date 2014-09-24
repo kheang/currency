@@ -57,4 +57,11 @@ class CurrencyProjTest < MiniTest::Unit::TestCase
     assert_equal :exception_subtract_handled, result
   end
 
+  def test_allow_multiplier_of_currency_object
+    currency1 = Currency.new(5,"USD")
+    currency1 *= 6
+
+    assert_equal Currency.new(30,"USD"), currency1
+  end
+
 end
