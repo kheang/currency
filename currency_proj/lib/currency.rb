@@ -19,7 +19,16 @@ class Currency
     end
   end
 
+  def -(comparison)
+    if @code == comparison.code
+      currency_sum = Currency.new(@num-comparison.num,@code)
+    end
+  end
+
   def run
 
   end
+  # 
+  # def DifferentCurrencyCodeError < StandardError
+  # end
 end
