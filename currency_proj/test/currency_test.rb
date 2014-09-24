@@ -62,6 +62,11 @@ class CurrencyProjTest < MiniTest::Unit::TestCase
     currency1 *= 6
 
     assert_equal Currency.new(30,"USD"), currency1
+
+    currency2 = Currency.new(5,"USD")
+    currency2 *= 1.5
+
+    assert_equal Currency.new(7.5,"USD"), currency2
   end
 
 end
