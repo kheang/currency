@@ -6,7 +6,7 @@ class CurrencyConverter
   end
 
   def convert(currency,code)
-    Currency.new(currency.num,code)
+    Currency.new(currency.num*codes[code],code)
   end
 
   def run

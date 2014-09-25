@@ -18,4 +18,12 @@ class CurrencyConverterTest < MiniTest::Unit::TestCase
     assert_equal Currency.new(3,:USD), converted_currency
   end
 
+  def test_return_converted_currency_object
+    curr_converter = CurrencyConverter.new
+    currency = Currency.new(25,:USD)
+    converted_currency = curr_converter.convert(currency,:EUR)
+
+    assert_equal Currency.new(18.5,:EUR), converted_currency
+  end
+
 end
