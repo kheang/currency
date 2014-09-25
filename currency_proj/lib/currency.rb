@@ -2,9 +2,21 @@ class Currency
   include Comparable
   attr_reader :num, :code
 
-  def initialize(num,curr_code)
-    @num = num
-    @code = curr_code
+  def initialize(num,curr_code = nil)
+    symbol_code_pair = {"$"=>:USD,"€"=>:EUR,"£"=>:GBP}
+
+    if curr_code != nil
+      @num = num
+      @code = curr_code
+    else
+      symbol_code_pair.each do |key, value|
+        symbol = key.encode("UTF-8")
+        if /#{symbol}/.match(num)
+          @code = symbol_code_pair[symbol]
+          @num = (num.delete key).to_i
+        end
+      end
+    end
   end
 
   def <=>(comparison)
