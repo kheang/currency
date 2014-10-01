@@ -1,0 +1,450 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.wrapper {
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  border: 0;
+}
+
+div.header {
+  background:
+    linear-gradient(
+      rgba(50, 100, 205, 0.80),
+      rgba(50, 100, 205, 0.80)
+    ),
+    url("images/waves.jpg");
+  background-position: 0% 40%;
+  margin: 0;
+  padding: 0;
+  width: 956px;
+  height:385px;
+  opacity: 5;
+  border: 0;
+}
+
+.header h1 {
+  color: #ffffff;
+  font-family: open sans;
+  font-size: 74px;
+  font-weight: 400;
+  letter-spacing: -1.5px;
+  text-align: center;
+  text-shadow: 2px 2px #285799;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  position: relative; top: 76px;
+
+}
+
+.header h2 {
+  color: #18314e;
+  font-size: 11px;
+  font-family: arial;
+  font-weight: 300;
+  position: relative; top: 58px; left: 359px;
+  width: 500px;
+}
+
+.left_tools {
+  color: #172f4a;
+  font-family: open sans;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 34px;
+  position: relative; top: 7px; left: 103px;
+  text-transform: uppercase;
+  vertical-align: top;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+.left_tools img {
+  padding-right: 5px;
+}
+
+.right_tools {
+  display: inline;
+  position: relative; top: -49px; left:726px;
+  margin: 0;
+  padding: 0;
+}
+
+.right_tools ul {
+  color: #172f4a;
+  display: inline;
+  font-family: oswald;
+  line-height: 16px;
+  list-style: none;
+  position: relative; top: 16px; left: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  vertical-align: bottom;
+}
+
+.right_tools li {
+  display: inline;
+  padding-right: 12px;
+}
+
+.right_tools i {
+  margin: 0;
+  padding-left: 9px;
+  font-size: 12px;
+  transform: rotate(90deg);
+  position: relative; top: -7px;
+}
+
+.page_body {
+  margin: 0;
+  padding: 0;
+  width: 856px;
+}
+
+.main {
+  font-family: open sans;
+  margin: 0;
+  padding-left: 119px;
+  padding-right: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding_bottom: 0;
+  width: 446px;
+  float: left;
+}
+
+.main h1 {
+  margin: 0;
+  padding: 47px 0 0 0;
+  color: #18324e;
+  font-family: oswald;
+  font-size: 47px;
+  font-weight: 500;
+  line-height: 51px;
+  text-transform: uppercase;
+}
+
+.main h2 {
+  margin: 0;
+  padding: 0;
+  color: #4577c0;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  display: inline;
+  position: relative; top: -27px; left: 35px;
+}
+
+.main h3 {
+  margin: 0;
+  padding: 0;
+  color: #a1b2be;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  position: relative; top: -27px;
+  margin-left: 38px;
+  display: inline;
+}
+
+/*.text {
+  margin: 0;
+  padding: 0;
+  width: 246px;
+  position: relative; top: -7px;
+}*/
+
+.main p {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 18px;
+  color: #56626c;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 19px;
+  position: relative; top: -7px;
+}
+
+.quote {
+  color: #3169b9;
+  font-family: open sans;
+  text-transform: uppercase;
+  border-left: 3px solid #e5e5e4;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-left: 4px;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.pane {
+  margin: 0;
+  padding: 0;
+  float: right;
+  width: 205px;
+  position: relative; left: -18px;
+}
+
+.pane h1 {
+  color: #3269b9;
+  text-transform: uppercase;
+  font-family: arial;
+  font-size: 11.5px;
+  font-weight: lighter;
+  line-height:12px;
+  text-align: center;
+  padding-top: 3px;
+  padding-left: 1px;
+}
+
+.pane li {
+  color: #cbd3d8;
+  font-family: open sans;
+  font-size: 10px;
+  list-style: none;
+  display: inline;
+  text-align: center;
+  margin: 0;
+  padding: 3px;
+  position: relative; left: -13px; top: -18px;
+}
+
+.avatar {
+  width: 62px;
+  height: 62px;
+  border-radius: 31px;
+  background:
+  linear-gradient(
+  rgba(50, 100, 205, 0.80),
+  rgba(50, 100, 205, 0.80)
+  ),
+  url("images/dolphin.jpg");
+  background-size: 80px 80px;
+  background-position: 30% -10%;
+  float: none;
+  margin-top: 60px;
+  margin-left: 73px;
+  padding: 0;
+}
+
+.small_avatar {
+  width: 30px;
+  height: 28px;
+  border-radius: 15px;
+  background:
+  linear-gradient(
+  rgba(50, 100, 205, 0.80),
+  rgba(50, 100, 205, 0.80)
+  ),
+  url("images/dolphin.jpg");
+  background-size: 45px 45px;
+  background-position: 30% -10%;
+  float: none;
+  margin: 6px 0 0 0;
+  padding-top: 0;
+}
+
+.ad {
+  width: 205px;
+  height: 165px;
+  background:
+  linear-gradient(
+  rgba(50, 100, 205, 0.80),
+  rgba(50, 100, 205, 0.80)
+  ),
+  url("images/taken2.jpg");
+  background-size: 205px;
+  margin: 0;
+  padding: 0;
+  /*position: relative; top: 15px; left: -39px;*/
+}
+
+.ad_disclaimer {
+  color: #CCCCCC;
+  font-family: open sans;
+  font-size: 10px;
+  text-decoration: underline;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.sidebar {
+  color: #3268b8;
+  font-family: oswald;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 39px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.sidebar_text {
+  margin-top: 2px;
+  padding-top: 0;
+  padding-bottom: 18px;
+  color: #56626c;
+  font-family: open sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+div.effect .button_ico {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #56616b;
+  width: 24px;
+  height: 21px;
+  display: inline-block;
+  position: relative; top: -12px;
+}
+
+div.effect .button_ico2 {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #56616b;
+  width: 24px;
+  height: 19px;
+  display: inline-block;
+  position: relative; top: -10px;
+  padding-top: 2px;
+}
+
+div.effect .button {
+  margin: 0;
+  color: white;
+  background-color: #a1b2be;
+  font-size: 9px;
+  font-weight: 300;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  position: relative; top: -11px;
+  letter-spacing: 1px;
+}
+
+div.effect {
+  display: inline-block;
+}
+
+
+div.effect:hover .button_ico {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #18324e;
+  width: 24px;
+  height: 21px;
+  display: inline-block;
+  position: relative; top: -12px;
+}
+
+div.effect:hover .button_ico2 {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #18324e;
+  width: 24px;
+  height: 19px;
+  display: inline-block;
+  position: relative; top: -10px;
+  padding-top: 2px;
+}
+
+div.effect:hover .button {
+  margin: 0;
+  color: white;
+  background-color: #3269b9;
+  font-size: 9px;
+  font-weight: 300;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  position: relative; top: -11px;
+  letter-spacing: 1px;
+}
+
+p.more {
+  color: #18324e;
+  margin-top: 54px;
+  margin-bottom: 21px;
+  width: 965px;
+  text-align: center;
+  font-family: oswald;
+  font-size: 48px;
+  font-weight: 400;
+  display: inline-block;
+  float: none;
+  padding: 0;
+}
+
+div.post {
+  margin: 0;
+  padding: 0;
+  position: none;
+  font-family: oswald;
+  font-size: 20px;
+  text-align: left;
+  vertical-align: bottom;
+  width: 239px;
+  height: 243px;
+  background:
+  linear-gradient(
+  rgba(50, 100, 205, 0.80),
+  rgba(50, 100, 205, 0.80)
+  ),
+  url("images/homer.gif");
+  background-size: 243px 243px;
+  display: inline-block;
+}
+
+div.post2 {
+  margin: 0;
+  padding: 0;
+  position: none;
+  font-family: oswald;
+  font-size: 20px;
+  text-align: left;
+  vertical-align: bottom;
+  width: 239px;
+  height: 243px;
+  background:
+  linear-gradient(
+  rgba(50, 100, 205, 0.80),
+  rgba(50, 100, 205, 0.80)
+  ),
+  url("images/homer2.jpg");
+  background-size: 243px 243px;
+  display: inline-block;
+}
+
+p.post {
+  color: #18324e;
+  margin: 0;
+  padding: 5px;
+  position: relative; top: 180; left: 0;
+}

@@ -9,7 +9,7 @@ class CurrencyConverter
   end
 
   def convert(currency,code)
-    if @codes[currency.code] != nil && @codes[code] != nil
+    if @codes[currency.code] != nil && @codes[code] != nil  # refactor - DeMorgan's Law
       converted_amount = currency.num*(@codes[code]/@codes[currency.code])
       Currency.new(converted_amount,code)
     else
